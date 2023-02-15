@@ -4,3 +4,5 @@ function themeToggle () {
     const footer = document.getElementById('logo-text')
     footer
   }
+
+  document.getElementById("year").innerHTML = new Date().getFullYear();
